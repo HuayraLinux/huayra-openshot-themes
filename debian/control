@@ -7,6 +7,7 @@ Standards-Version: 3.7.2
 
 Package: huayra-openshot-themes
 Architecture: all
+Depends: openshot (>= 1.4.2)
 Description: Temas de Openshot para Huayra GNU/Linux
  Temas de Huayra GNU/Linux para el editor de video OpenShot.
 
