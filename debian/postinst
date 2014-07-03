@@ -1,0 +1,13 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    echo "Generando symlink de temas"
+    if [ ! -e /usr/lib/pymodules/python2.7/openshot/themes/huayra_slim ]; then 
+        ln -s /usr/share/pyshared/openshot/themes/huayra_slim /usr/lib/pymodules/python2.7/openshot/themes/huayra_slim
+    fi
+fi
+
+#DEBHELPER#
+
+

@@ -1,0 +1,11 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = "remove" ]; then
+    echo "Eliminando symlink de temas"
+    if [ -e /usr/lib/pymodules/python2.7/openshot/themes/huayra_slim ]; then 
+        rm /usr/lib/pymodules/python2.7/openshot/themes/huayra_slim
+    fi
+fi
+
+#DEBHELPER#

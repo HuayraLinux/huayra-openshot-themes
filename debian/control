@@ -1,0 +1,12 @@
+Source: huayra-openshot-themes
+Section: Graphics
+Priority: optional
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: huayra-openshot-themes
+Architecture: all
+Description: Temas de Openshot para Huayra GNU/Linux
+ Temas de Huayra GNU/Linux para el editor de video OpenShot.
+
